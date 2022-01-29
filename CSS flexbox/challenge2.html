@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beta Version 1</title>
+    <style>
+        body{
+            font-family: 'Open Sans', sans-serif;
+            font-family: 'Playfair Display SC', serif;
+           
+        }
+        *{
+            box-sizing: border-box;
+            
+        }
+        /* img{
+            height:100px;
+            max-width: 220px;
+            padding-left: 20px;
+            
+        } */
+        .parent{
+            background-color: rgb(22, 5, 85);
+            padding-top: 20px;
+            padding-left: 250px;
+            display: flex;
+            flex-direction: row;
+            /* flex-wrap: wrap; */
+            /* letter-spacing: 2px; */
+            justify-content:space-between;
+            /* align-content:center; */
+            border: 1px solid black;
+        }
+        .child{
+            height: 60px;
+            width: 700px;
+            color: whitesmoke;
+            font-weight: 700;
+        }
+        #c1{
+            padding-left: 200px;
+        }
+        #c2{
+            padding-left: 65px;
+        }
+        .left-content{
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            flex-direction: row;
+            max-height: 100vh;
+            
+        }
+        .left-content img{
+            margin: 10px;
+            border: 3px solid rgb(219, 3, 201);
+            box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3); 
+            max-width: 23vw;
+        }
+              
+    </style>
+</head>
+<body>
+    
+    <div class="parent">
+          <div id="c1" class="child">JOBS</div>
+          <div class="child">TECH COMPANIES</div>
+          <div id="c2" class="child">REMOTE</div>
+          <div class="child">TECH TOPICS</div>
+          <div class="child">SALARIES</div>
+          <div class="child">LEARN</div>
+          
+    </div>
+    <div class="left-content">
+        <img src="./images/pexels-photo-1591373.jpeg" alt="" width="400px" height="300px">
+        <img src="./images/pexels-photo-2325446.jpeg" alt="" width="400px" height="300px">
+        <img src="./images/pexels-photo-2356045.jpeg" alt="" width="400px" height="300px">
+        <img src="./images/pexels-photo-2387873.jpeg" alt="" width="400px" height="300px">
+        <img src="./images/pexels-photo-2662116.jpeg" alt="" width="400px" height="300px">
+        <img src="./images/pexels-photo-2901209.jpeg" alt="" width="400px" height="300px">
+        <img src="./images/pexels-photo-3369102.jpeg" alt="" width="400px" height="300px">
+        <img src="./images/pexels-photo-347141.jpeg" alt="" width="400px" height="300px">
+    </div>
+</body>
+</html>
